@@ -1,0 +1,96 @@
+/* FONTS GO HERE AT THE TOP OF THE PAGE */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+
+body {
+    background-color: whitesmoke;
+    color: black;
+    margin-top: 20px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.buttonholder {
+    width:1475px;
+    text-align:center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1 {
+    text-align:center;
+    font-family: 'Holtwood One SC', serif;
+}
+
+.titlebutton {
+    background-color: #3366cc;
+    width:150px; 
+    border: 12px;
+    color: white;
+    font-family: 'Palanquin Dark', sans-serif;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+.titlebutton {border-radius: 15px;}
+
+.titlebutton:hover {
+      background-color:white;
+      color:black;
+  }
+
+.subtitles {
+    background-color: #3366cc;
+    color: white;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Palanquin Dark', sans-serif;
+    text-shadow: -3px 3px 0 #000,
+    1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000;
+}
+
+.subtitle2 {
+    background-color: #09887dda;
+    color: white;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Palanquin Dark', sans-serif;
+    text-shadow: -3px 3px 0 #000,
+    1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000;
+}
+
+.container {
+    display:flex;
+    min-width: height 200px;;
+    flex-wrap:nowrap;
+}
+
+.img {
+    color:black;
+    font-size:20px;
+    font-family: 'Palanquin Dark', sans-serif;
+    justify-content: space-evenly;
+    padding: 10px;
+    width: 33.3333%;
+}
+

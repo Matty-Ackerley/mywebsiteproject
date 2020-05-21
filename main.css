@@ -49,65 +49,107 @@ h1 {
       color:black;
   }
 
+
+.header {
+    background-color: #3366cc;
+    color: black;
+    cursor: default;
+    padding: 18px;
+    width: 100%;
+    border: 12px;
+    text-align: center;
+    display: inline-block;
+    outline: none;
+    font-size: 15px;
+    font-family: 'Palanquin Dark', sans-serif;
+}
+  
 .subtitles {
     background-color: #3366cc;
-    color: white;
+    color: black;
+    cursor: pointer;
     padding: 18px;
     width: 100%;
-    border: none;
+    border: 12px;
     text-align: center;
-    font-size: 16px;
+    display: inline-block;
+    outline: none;
+    font-size: 15px;
     font-family: 'Palanquin Dark', sans-serif;
-    text-shadow: -3px 3px 0 #000,
-    1px 1px 0 #000,
-    1px -1px 0 #000,
-    -1px -1px 0 #000;
-}
+    margin: 4px 2px;
+    transition: 0.4s;
+  }
+  
+  .active, .subtitles:hover {
+    background-color: #ccc; 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
 
 .subtitle2 {
-    background-color: #09887dda;
-    color: white;
+    background-color: #17ebce;
+    color: black;
+    cursor: pointer;
     padding: 18px;
     width: 100%;
-    border: none;
+    border: 12px;
     text-align: center;
-    font-size: 16px;
+    display: inline-block;
+    outline: none;
+    font-size: 15px;
     font-family: 'Palanquin Dark', sans-serif;
-    text-shadow: -3px 3px 0 #000,
-    1px 1px 0 #000,
-    1px -1px 0 #000,
-    -1px -1px 0 #000;
-}
+    margin: 4px 2px;
+    transition: 0.4s;
+  }
+
+  .active, .subtitle2:hover {
+    background-color: #ccc; 
+  }
 
 .subtitle3 {
-    background-color: #08c518da;
-    color: white;
+    background-color: #01c40b;
+    color: black;
+    cursor: pointer;
     padding: 18px;
     width: 100%;
-    border: none;
+    border: 12px;
     text-align: center;
-    font-size: 16px;
+    display: inline-block;
+    outline: none;
+    font-size: 15px;
     font-family: 'Palanquin Dark', sans-serif;
-    text-shadow: -3px 3px 0 #000,
-    1px 1px 0 #000,
-    1px -1px 0 #000,
-    -1px -1px 0 #000;
-}
+    margin: 4px 2px;
+    transition: 0.4s;
+  }
+
+  .active, .subtitle3:hover {
+    background-color: #ccc; 
+  }
 
 .subtitle4 {
-    background-color: #e7b11dda;
-    color: white;
+    background-color: #e7d211;
+    color: black;
+    cursor: pointer;
     padding: 18px;
     width: 100%;
-    border: none;
+    border: 12px;
     text-align: center;
-    font-size: 16px;
+    display: inline-block;
+    outline: none;
+    font-size: 15px;
     font-family: 'Palanquin Dark', sans-serif;
-    text-shadow: -3px 3px 0 #000,
-    1px 1px 0 #000,
-    1px -1px 0 #000,
-    -1px -1px 0 #000;
-}
+    margin: 4px 2px;
+    transition: 0.4s;
+  }
+
+.active, .subtitle4:hover {
+    background-color: #ccc; 
+  }
 
 #center {
     text-align: center;
